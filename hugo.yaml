@@ -1,4 +1,15 @@
-baseURL: https://example.org/
+baseURL: https://jessechounard.dev/
 languageCode: en-us
-title: My New Hugo Site
-theme: ["PaperMod"]
+title: Jesse's Inanity
+theme: PaperMod
+
+params:
+  homeInfoParams:
+    Title: "Jesse's blog"
+    Content: Welcome to my dev blog. Click on some stuff, lemme know if it breaks. I tend to break things.
+
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/Chounard"
+    - name: github
+      url: "https://github.com/jessechounard"
