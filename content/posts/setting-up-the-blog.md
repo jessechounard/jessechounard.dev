@@ -25,3 +25,14 @@ My final step in this journey (so far) was to hop over to [letsencrypt.org](http
 I'm not sure if I'll get around to automating deployment for this little blog. I'm interested, but let's see if I bother to keep watering this plant for awhile first.
 
 Not thrilled with this wall of text. Next topic needs to have some screenshots!
+
+Update:
+
+Shortly after posting this, I realized that going to [www.jessechounard.dev](https://www.jessechounard.dev) wasn't giving me the same result as [jessechounard.dev](https://jessechounard.dev) (leaving off the `www`.) It turns out that you have to specify those as unique domains when requesting your SSL cert.
+
+It was a simple fix, though. A quick search turned up that I could run:
+```sh
+sudo ./certbot certonly --standalone -d jessechounard.dev -d www.jessechounard.dev
+```
+
+Problem solved!

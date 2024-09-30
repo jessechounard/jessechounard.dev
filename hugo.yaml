@@ -13,3 +13,5 @@ params:
       url: "https://twitter.com/Chounard"
     - name: github
       url: "https://github.com/jessechounard"
+
+  defaultTheme: dark
