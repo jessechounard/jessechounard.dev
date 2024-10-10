@@ -8,10 +8,19 @@ params:
     Title: "Jesse's blog"
     Content: Welcome to my dev blog. Click on some stuff, lemme know if it breaks. I tend to break things.
 
+  social: true
+  
   socialIcons:
     - name: twitter
       url: "https://twitter.com/Chounard"
     - name: github
       url: "https://github.com/jessechounard"
+    - name: "rss"
+      url: "https://jessechounard.dev/index.xml"
 
   defaultTheme: dark
+
+outputs:
+  home:
+    - HTML
+    - RSS
